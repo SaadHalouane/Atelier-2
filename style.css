@@ -1,0 +1,33 @@
+.div1{
+    background-color: plum;
+    grid-column: span 2;
+}
+.div2{
+    background-color: grey;
+}
+.div3{
+    background-color: black;
+    grid-row: span 2;
+}
+.div4{
+    background-color: blue;
+}
+.div5{
+    background-color: brown;
+    grid-column: span 2;
+}
+.container{
+    width: 1500px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, auto);
+    gap: 20px;
+    max-width: 1000px;
+    justify-content: center;
+    align-items: center;
+}
+.Body{
+    justify-content: center;
+
+    display: flex;
+}
